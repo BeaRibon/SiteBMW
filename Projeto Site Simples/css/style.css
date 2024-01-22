@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h4{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Configuração da HEADER */
+header{
+    width: 100%;
+    height: 4rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-right: 1%;
+    background-color: #004AAD;
+}
+
+.img{
+    position: absolute;
+    padding-left: 2%;
+    width: 5%;
+    height: 4rem;
+}
+.btnheader{
+    border: 0;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+    background-color: #56A0F5;
+    color: #ffff;
+    margin-top: 2px;
+
+}
+.btns{
+    padding-top: 1%;
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    left: 82%;
+}
+
+/* Configuração da MAIN INDEX */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+
+.categoria{
+    margin-left: 2%;
+}
+
+.msgprinci{
+    width: 90%;
+    height: 100px;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    border: solid 1px #c6c6c6;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.text1{
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.text{
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+
+.listacat{
+    list-style-type: none;
+}
+
+.itens{
+    padding-bottom: 5%;
+}
+
+.itens:hover{
+    text-decoration: underline;
+    color: #56A0F5 ;
+}
+
+#links{
+    margin-top: 2%;
+    text-decoration: none;
+    color: #56A0F5;
+    text-align: center;
+}
+
+#links:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/* Configuração do FOOTER*/
+footer{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 15rem;
+}
+.footerlinks{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2% ;
+}
+
+.redes{
+    width: 100px;
+    height: 50px;
+}
+
+.footerbotom{
+    margin-bottom: 100%;
+    text-align: center;
+}
+
+iframe{
+    margin-bottom: 4%;
+    margin-left: 2%;
+    border-style:none;
+    
+}
+
+/* Configuração da MAIN CONTATO */
+
+.contat{
+    display: flex;
+}
+
+.form{
+  margin-left: 2rem;
+  text-align: center;
+
+}
+
+.input{
+    height: 4rem;
+    width: 100%;
+    border: 2px solid #56A0F5;    
+    border-radius: 1rem;
+    margin-bottom: 15px;
+}
+
+/* Configuração da MAIN sobre */
+
+.sobre{
+    display: flex;
+}
+
+.imgcarro{
+    width: 30rem;
+    height: 20rem;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 1%;
+}
